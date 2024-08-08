@@ -330,6 +330,7 @@ main {
     & section#contact {
         display: flex;
         flex-direction: column;
+        min-height: 100vh;
         padding: 3% 10%;
         background-color: #17869C;
         
@@ -422,8 +423,13 @@ footer {
         padding: 3% 10%;
 
         & div {
+            width: 23%;
+            & img {
+                width: 40%;
+            }
+
             & h5 {
-                font-size: 100%;
+                font-size: 130%;
                 font-weight: 500;
                 letter-spacing: .0125rem;
                 text-transform: uppercase;
@@ -435,7 +441,7 @@ footer {
 
                 & li {
                     & a {
-                        font-size: 90%;
+                        font-size: 110%;
                         font-weight: 400;
                         letter-spacing: .0125rem;
                         transition: ease-in-out .1s;
