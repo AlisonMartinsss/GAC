@@ -330,7 +330,6 @@ main {
     & section#contact {
         display: flex;
         flex-direction: column;
-        min-height: 100vh;
         padding: 3% 10%;
         background-color: #17869C;
         
